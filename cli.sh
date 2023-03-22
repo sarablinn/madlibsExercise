@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-docker exec -it php-cli-exercise php src/main.php $@
+docker exec -it php-madlibs-exercise php src/main.php $@

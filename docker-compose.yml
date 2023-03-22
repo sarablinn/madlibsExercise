@@ -5,10 +5,10 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile.dev
-    container_name: php-cli-exercise
+    container_name: php-madlibs-exercise
     volumes:
       - ".:/application"
     environment:
       XDEBUG_CONFIG: "remote_host=host.docker.internal"
-      PHP_IDE_CONFIG: "serverName=php_cli_exercise"
+      PHP_IDE_CONFIG: "serverName=php-madlibs-exercise"
       LOG_LEVEL: 'debug'
