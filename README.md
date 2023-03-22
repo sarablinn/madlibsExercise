@@ -8,7 +8,6 @@ This project provides a starter CLI to complete exercises to practice coding in 
 2. Clone your new repo and open it in PhpStorm
 3. For this exercise, you'll run Docker from within PhpStorm. To do this, see the instructions below
 4. Be sure to run 'composer install'
-4. With your Docker container running execute `./cli.sh help`. You'll see an example command that can be run
 5. Run `./cli.sh echo:name`
 6. Create your own commands in the [src/](src) folder
 7. Make sure to run `docker exec -it php-cli-exercise composer install` after adding a new command
