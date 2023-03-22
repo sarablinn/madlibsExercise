@@ -10,7 +10,7 @@ This project provides a starter CLI to complete exercises to practice coding in 
 4. Be sure to run 'composer install'
 5. Run `./cli.sh echo:name`
 6. Create your own commands in the [src/](src) folder
-7. Make sure to run `docker exec -it php-cli-exercise composer install` after adding a new command
+7. Make sure to run `docker exec -it php-madlibs-exercise composer install` after adding a new command
 
 ---
 ## Instructions on setting up Docker in PhpStorm
