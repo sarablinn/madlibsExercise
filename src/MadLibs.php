@@ -27,11 +27,6 @@ class MadLibs extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $boldOutputStyle = new OutputFormatterStyle('red', '#ff0', ['bold', 'blink']);
-        $output->getFormatter()->setStyle('fire', $boldOutputStyle);
-
-        $output->writeln('<fire>foo</>');
-
         // find mad libs file
         $finder = new Finder();
         $finder->files()->in('src/data')->name($this->mad_libs_filename);
