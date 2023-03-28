@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad955940-8006-422b-b0cc-b8bfd74f8a4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MadLibs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile.dev" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile.dev" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MadLibs.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MadLibs.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +48,20 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/sblinn/Kipsu/madlibsExercise",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "settings.php.debug.servers",
+    "settings.editor.selected.configurable": "SQL Dialects",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -88,7 +91,7 @@
       <workItem from="1679508327137" duration="1728000" />
       <workItem from="1679511362550" duration="425000" />
       <workItem from="1679513256539" duration="24000" />
-      <workItem from="1679516305865" duration="47507000" />
+      <workItem from="1679516305865" duration="52432000" />
     </task>
     <servers />
   </component>
@@ -105,5 +108,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

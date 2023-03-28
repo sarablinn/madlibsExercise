@@ -84,7 +84,7 @@ class MadLibs extends Command
                     $this->printSeparator($input, $output);
                     $output->writeln($result);
 
-                    if ($this->getPlayAgainResponse($input, $output) == 1) {
+                    if ($this->getPlayAgainResponse($input, $output) == '1') {
                         $this->execute($input, $output);
                     }
                 }
@@ -98,7 +98,7 @@ class MadLibs extends Command
     }
 
 
-    private function getPlayAgainResponse(InputInterface $input, OutputInterface $output): int {
+    private function getPlayAgainResponse(InputInterface $input, OutputInterface $output): string {
         $helper = $this->getHelper('question');
 
         $this->printSeparator($input, $output);
