@@ -10,6 +10,9 @@ $application = new Application("PHP Symfony CLI", "v0.0.1");
 
 $application->add(new EchoNameCommand());
 
+$application->add(new MadLibs());
+
+
 try {
     $application->run();
 } catch (\Exception $e) {}

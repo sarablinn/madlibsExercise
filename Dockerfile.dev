@@ -25,7 +25,7 @@ RUN echo "error_reporting = E_ALL" >> /usr/local/etc/php/conf.d/docker-php-ext-x
         && echo "xdebug.discover_client_host=0" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini \
         && echo "opcache.enable = 0" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
 
-RUN composer install
+#RUN composer install
 
 ENV SHELL_VERBOSITY 3
 
